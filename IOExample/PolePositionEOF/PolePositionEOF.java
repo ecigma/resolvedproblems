@@ -2,13 +2,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class PolePosition {
+public class PolePositionEOF {
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    String line = br.readLine().trim();
 
-    while (!line.equals("0")) {
+    while (br.ready()) {
+      String line = br.readLine().trim();
       int N = Integer.parseInt(line);
       int[][] carpos = new int[2][N];
       for(int i = 0; i < N ; i++){
@@ -17,7 +17,6 @@ public class PolePosition {
         carpos[1][i] = Integer.parseInt(pair[1]);
       }
       solve(N,carpos);
-      line = br.readLine().trim();
     }
     br.close();
   }
