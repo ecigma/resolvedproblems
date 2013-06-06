@@ -1,0 +1,14 @@
+https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=330&page=show_problem&problem=2217
+
+Tomado de ICPC-Live Archive
+
+Para compilar:
+
+  javac PolePosition.java
+
+Para ejecutar:
+
+  java PolePosition.java < test.in
+
+
+
