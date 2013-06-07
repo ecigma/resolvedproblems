@@ -1,6 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Hashtable;
 
+/**
+ * Solution to CasketOfStar
+ * See <a href="http://community.topcoder.com/stat?c=problem_statement&pm=11781">problem statement</a>
+ * @author <a href="mailto:camilo.rocha@gmail.com">Camilo Rocha</a>
+ * @version 1.0
+ */
 public class CasketOfStar{
 
   public static int maxEnergy(int[] weight){

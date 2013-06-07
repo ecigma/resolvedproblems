@@ -1,9 +1,11 @@
-
+/**
+ * Solution to ChangingSounds
+ * See <a href="http://community.topcoder.com/stat?c=problem_statement&pm=7973">problem statement</a>
+ * @author <a href="mailto:camilo.rocha@gmail.com">Camilo Rocha</a>
+ * @version 1.0
+ */
 public class ChangingSoundsTabulation {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int[] a= {5, 3, 7};
 		System.out.println(ChangingSoundsTabulation.maxFinal(a, 5, 10));
