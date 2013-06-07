@@ -1,12 +1,12 @@
-/**
-* Solution by 
-*  Carlos Antonio Pinzón
-*  caph1993@gmail.com
-*/
-
 import java.util.*;
 import java.lang.Math;
 
+/**
+ * Solution to FenceReparing
+ * See <a href="http://community.topcoder.com/stat?c=problem_statement&pm=6827">problem statement</a>
+ * @author <a href="mailto:caph1993@gmail.com">Carlos Pinzón</a>
+ * @version 1.0
+ */
 public class FenceRepairing {
 
   public static void main(String [] args){
